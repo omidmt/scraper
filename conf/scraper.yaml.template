@@ -1,0 +1,15 @@
+appName: scraper
+version: 1.0
+logLevel: INFO
+logDir: log
+
+notification:
+  throttling: 3
+  telegram:
+    token: ''
+    chatId: ''
+
+crawler:
+  intervalSeconds: 180
+  scrapySettingsModule: ps5.ps5.settings
+  bots: ['bigw', 'target', 'jbhifi', 'goodguys', 'harvey', 'gamesmen', 'sony', 'ps5stock']

@@ -1,0 +1,4 @@
+scrapy
+telegram-send
+coloredlogs
+pyyaml
